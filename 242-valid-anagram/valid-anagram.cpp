@@ -10,7 +10,7 @@ public:
             freq[t[i]-'a']--;
         }
         for(int i=0;i<26;i++){
-            if(freq[i]!=0){
+            if(freq[i]>0){
                 return false;
             }
         }
