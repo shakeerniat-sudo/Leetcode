@@ -10,6 +10,7 @@ public:
         }
         return true;
     }
+
     int countSubstrings(string s) {
         int count=0;
         int n=s.size();
