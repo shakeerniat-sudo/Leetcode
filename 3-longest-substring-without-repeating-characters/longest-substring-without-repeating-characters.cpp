@@ -13,6 +13,6 @@ public:
             st.insert(s[right]);
             maxi=max(maxi,right-left+1);
         }
-        return maxi; 
+        return maxi;
     }
 };
