@@ -7,6 +7,6 @@ public:
             swap(s[left],s[right]);
             left++;
             right--;
-        } 
+        }
     }
 };
