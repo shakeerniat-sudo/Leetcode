@@ -19,12 +19,12 @@ public:
         queue<TreeNode*>q;
         q.push(root);
         while(!q.empty()){
-            vector<int>v;
             int size=q.size();
+            vector<int>v;
             while(size>0){
                 TreeNode* node=q.front();
                 q.pop();
-                v.push_back(node->val); 
+                v.push_back(node->val);
                 if(node->left!=NULL){
                     q.push(node->left);
                 }
@@ -34,6 +34,7 @@ public:
                 size--;
             }
             ans.push_back(v);
+
         }
         return ans;
     }
